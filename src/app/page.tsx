@@ -12,7 +12,8 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="text-3xl pb-10">BRC20 Visualizer</div>
+      <div className="text-3xl pb-10">Transaction Visualizer</div>
+
       <SearchBox setResult={setResult} />
       {result && <Visualizer result={result} />}
     </main>
